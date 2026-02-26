@@ -63,7 +63,9 @@ export default function Home() {
       const res = await api.post("/code/format", { files });
       setLink(`${window.location.origin}/code/${res.data.slug}`);
     } catch {
-      alert("Formatting failed");
+      alert(
+        'Formatting failed Because of "API Limitations" Try Again After 10 minutes Time',
+      );
     }
 
     setLoading(false);
