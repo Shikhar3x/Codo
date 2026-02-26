@@ -61,7 +61,7 @@ export default function Home() {
 
     try {
       const res = await api.post("/code/format", { files });
-      setLink(`http://localhost:5173/code/${res.data.slug}`);
+      setLink(`${window.location.origin}/code/${res.data.slug}`);
     } catch {
       alert("Formatting failed");
     }
