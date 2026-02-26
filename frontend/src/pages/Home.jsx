@@ -87,7 +87,7 @@ export default function Home() {
               className="w-9 h-9 rounded-lg bg-linear-to-br from-green-500 to-black-400
                       flex items-center justify-center text-white font-bold"
             >
-              {"∫"}
+              {"🕸️"}
             </div>
 
             {/* Brand text */}
