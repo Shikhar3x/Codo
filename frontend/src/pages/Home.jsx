@@ -87,13 +87,13 @@ export default function Home() {
               className="w-9 h-9 rounded-lg bg-linear-to-br from-green-500 to-black-400
                       flex items-center justify-center text-white font-bold"
             >
-              {". /"}
+              {"∫"}
             </div>
 
             {/* Brand text */}
             <div>
               <h1 className="text-lg sm:text-xl font-semibold tracking-wide">
-                Codunk
+                CodeMesh
               </h1>
               <p className="text-xs text-gray-400 leading-tight">
                 AI Multi-File Code Share
@@ -228,7 +228,7 @@ export default function Home() {
                     className="px-4 py-2 bg-gray-800 rounded
                       hover:bg-gray-700 text-sm"
                   >
-                    {copied ? "✓ Copied" : "Copy"}
+                    {copied ? "Copied" : "Copy"}
                   </button>
 
                   <a

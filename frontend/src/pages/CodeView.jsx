@@ -54,11 +54,13 @@ export default function CodeView() {
               className="w-8 h-8 rounded-md bg-linear-to-br from-green-400 to-black-400
               flex items-center justify-center text-white font-bold text-sm"
             >
-              {". /"}
+              {"∫"}
             </div>
 
             <div>
-              <h1 className="text-base font-semibold tracking-wide">Codunk</h1>
+              <h1 className="text-base font-semibold tracking-wide">
+                CodeMesh
+              </h1>
               <p className="text-[11px] text-gray-500">Shared Code</p>
             </div>
           </div>
