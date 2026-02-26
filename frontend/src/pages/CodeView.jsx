@@ -54,7 +54,7 @@ export default function CodeView() {
               className="w-8 h-8 rounded-md bg-linear-to-br from-green-400 to-black-400
               flex items-center justify-center text-white font-bold text-sm"
             >
-              {"🕸️"}
+              {"🕷"}
             </div>
 
             <div>
