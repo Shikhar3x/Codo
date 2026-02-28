@@ -103,11 +103,11 @@ export default function Home() {
 
           {/* RIGHT ACTION */}
           <div className="flex items-center gap-4">
-            <span className="hidden sm:block text-xs text-gray-400">
-              Powered by AI
+            <span className="hidden sm:block text-sm text-gray-400">
+              Happy Coding 🐸
             </span>
 
-            <a
+            {/* <a
               href="https://github.com/Shikhar3x"
               target="_blank"
               rel="noreferrer"
@@ -117,7 +117,7 @@ export default function Home() {
                    hover:bg-gray-800 transition"
             >
               🔭 GitHub
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
