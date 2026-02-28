@@ -65,13 +65,13 @@ export default function LandingPage() {
       {/* NAVBAR */}
 
       <nav className="flex justify-between items-center px-6 md:px-10 py-5 md:py-6 border-b border-white/10 backdrop-blur-lg">
-        <h1 className="text-lg md:text-xl font-bold">CodeMesh</h1>
+        <h1 className="text-lg md:text-xl font-bold">CodeMesh 🕸️</h1>
 
         <button
           onClick={() => navigate("/editor")}
           className="px-4 md:px-5 py-2 bg-white text-black rounded-lg font-semibold hover:scale-105 transition text-sm md:text-base cursor-crosshair"
         >
-          Launch Editor
+          Launch Editor 🦎
         </button>
       </nav>
 
@@ -127,16 +127,15 @@ export default function LandingPage() {
             <div className="w-3 h-3 bg-red-400 rounded-full"></div>
             <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
             <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-            
           </div>
-          
 
           <pre className="text-xs sm:text-sm text-gray-300 font-mono overflow-x-auto cursor-crosshair">
-            <button className="font-bold cursor-crosshair" >
-          <span className="text-red-600 font-extrabold">// No</span> Signup and Login Required
-        </button>
-        <br />
-        <br />
+            <button className="font-bold cursor-crosshair">
+              <span className="text-red-600 font-extrabold">// No</span> Signup
+              and Login Required
+            </button>
+            <br />
+            <br />
             {`function greet(name){
   return "Hello " + name
 }
@@ -211,81 +210,63 @@ console.log(add(2,5))`}
         </div>
       </section>
 
-      {/* WHY DEVELOPERS LOVE CODESHARE */}
+      {/* WHY DEVELOPERS LOVE CODEMESH */}
 
       <section className="max-w-7xl mx-auto px-6 py-24">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           Why Developers Love CodeMesh
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Card 1 */}
 
           <motion.div
-            whileHover={{ scale: 1.04 }}
-            className="bg-white/5 border border-white/10 rounded-xl overflow-hidden backdrop-blur-lg"
+            whileHover={{ scale: 1.05 }}
+            className="p-8 bg-white/5 border border-white/10 rounded-xl backdrop-blur-lg text-center"
           >
-            <img
-              src="/src/assets/EditorInterface.png"
-              className="w-full h-[280px] md:h-[320px] object-contain bg-black p-2"
-            />
+            <div className="text-4xl mb-4">🖼️</div>
 
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">
-                {" "}
-                🖼️ Friendly User-Interface
-              </h3>
+            <h3 className="text-xl font-semibold mb-3">
+              Friendly User Interface
+            </h3>
 
-              <p className="text-gray-400 text-sm">
-                {" "}
-                Clean User-Interface Just COPY, PASTE, FORMAT with AI and SHARE
-                instantly.
-              </p>
-            </div>
+            <p className="text-gray-400 text-sm">
+              Clean interface where you can Paste Code, Format with AI and Share
+              instantly.
+            </p>
           </motion.div>
 
           {/* Card 2 */}
 
           <motion.div
-            whileHover={{ scale: 1.04 }}
-            className="bg-white/5 border border-white/10 rounded-xl overflow-hidden backdrop-blur-lg"
+            whileHover={{ scale: 1.05 }}
+            className="p-8 bg-white/5 border border-white/10 rounded-xl backdrop-blur-lg text-center"
           >
-            <img
-              src="/src/assets/Interface.png"
-              className="w-full h-[280px] md:h-[320px] object-contain bg-black p-2"
-            />
+            <div className="text-4xl mb-4">⚡</div>
 
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">⚡ Instant Sharing</h3>
+            <h3 className="text-xl font-semibold mb-3">Instant Sharing</h3>
 
-              <p className="text-gray-400 text-sm">
-                Generate a shareable link and send your code instantly to
-                anyone.
-              </p>
-            </div>
+            <p className="text-gray-400 text-sm">
+              Generate a Shareable Link and send your Code instantly to anyone.
+            </p>
           </motion.div>
 
           {/* Card 3 */}
 
           <motion.div
-            whileHover={{ scale: 1.04 }}
-            className="bg-white/5 border border-white/10 rounded-xl overflow-hidden backdrop-blur-lg"
+            whileHover={{ scale: 1.05 }}
+            className="p-8 bg-white/5 border border-white/10 rounded-xl backdrop-blur-lg text-center"
           >
-            <img
-              src="/src/assets/SharedInterface.png"
-              className="w-full h-[280px] md:h-[320px] object-contain bg-black p-2"
-            />
+            <div className="text-4xl mb-4">🧠</div>
 
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">
-                🧠 Clean Code Reading
-              </h3>
+            <h3 className="text-xl font-semibold mb-3">
+              Clean AI Optimized Code Reading
+            </h3>
 
-              <p className="text-gray-400 text-sm">
-                View shared code inside a clean and readable interface designed
-                for developers and compare their code and bugs with AI.
-              </p>
-            </div>
+            <p className="text-gray-400 text-sm">
+              View Shared Code in a clean readable format and compare it with AI
+              Optimized Code.
+            </p>
           </motion.div>
         </div>
       </section>
@@ -300,7 +281,7 @@ console.log(add(2,5))`}
           onClick={() => navigate("/editor")}
           className="mt-8 px-8 md:px-10 py-3 md:py-4 bg-purple-600 rounded-lg font-semibold hover:bg-purple-700 hover:scale-105 transition w-full sm:w-auto cursor-crosshair"
         >
-          Launch CodeShare
+          Click🕸️To Launch CodeMesh Editor
         </button>
       </section>
 
