@@ -132,7 +132,7 @@ export default function LandingPage() {
           <pre className="text-xs sm:text-sm text-gray-300 font-mono overflow-x-auto cursor-crosshair">
             <button className="font-bold cursor-crosshair">
               <span className="text-red-600 font-extrabold">// No</span> Signup
-              and Login Required
+              and Login Required 🕸️
             </button>
             <br />
             <br />
