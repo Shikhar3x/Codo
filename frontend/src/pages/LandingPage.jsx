@@ -90,9 +90,9 @@ export default function LandingPage() {
                 sequence={[
                   " Share Code",
                   2000,
-                  " Debug Code",
+                  " Debugging",
                   2000,
-                  " Enjoy Code",
+                  " Building",
                   2000,
                 ]}
                 speed={40}
