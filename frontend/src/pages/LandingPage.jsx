@@ -143,6 +143,18 @@ export default function LandingPage() {
 console.log(greet("Developer"))
 
 `}
+            <a
+              href="https://www.producthunt.com/products/codemesh?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-codemesh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1091606&theme=light&t=1772831126389"
+                alt="CodeMesh - The easiest way to share code with anyone, instantly. | Product Hunt"
+                width="250"
+                height="54"
+              />
+            </a>
           </pre>
         </motion.div>
       </section>
