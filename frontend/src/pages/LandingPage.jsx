@@ -85,7 +85,7 @@ export default function LandingPage() {
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
             The Best and Fastest Tool For
-            <span className="text-purple-400">
+            <span className="block sm:inline text-purple-400">
               <TypeAnimation
                 sequence={[
                   " Share Code",
